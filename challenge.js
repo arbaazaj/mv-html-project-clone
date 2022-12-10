@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function(){
 function addWavyUnderline(elements) {
   let array = elements;
   array.forEach(element => {
-    element.style.textDecoration = 'wavy underline';
+    //element.style.textDecoration = 'wavy underline';
   });
 }
 

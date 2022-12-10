@@ -30,6 +30,48 @@ ol, ul {
   text-align: left;
 }
 
-a {
+#social ul a {
+  font-weight: 400;
+  padding-bottom: 5px;
+  filter: brightness(0) saturate(100%) invert(98%) sepia(100%) saturate(6850%) hue-rotate(321deg) brightness(103%) contrast(102%);
   background: url("https://ewebdesign.com/wp-content/themes/ewebdesign/assets/img/wave.svg");
+  background-repeat: repeat;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto auto;
+  background-repeat: repeat-x;
+  background-size: 15px 5px; 
+  background-position: 2px 19px;
+  animation: move 15s linear infinite;
+  -webkit-animation: move 15s linear infinite;
+  animation-play-state: paused;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
 }
+
+#social ul a:hover {
+  animation-play-state: running;
+}
+
+#social ul li {
+  padding-bottom: 10px;
+}
+
+@-webkit-keyframes move {
+  from {
+      background-position: 2px 19px;
+    }
+    to {
+      background-position: 500px 19px;
+    }
+  }
+  
+@keyframes move {
+  from {
+      background-position: 2px 19px;
+    }
+    to {
+      background-position: 500px 19px;
+    }
+  }
