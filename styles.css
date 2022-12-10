@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Montserrat:wght@100&display=swap');
+
+body {
+  color: white;
+  background-color: #6f23ff;
+  font-family: 'Montserrat', sans-serif;
+  margin: 50px 100px 50px 100px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Domine', serif;
+}
+
+h2 {
+  border-top: 0.5px solid white;
+  padding-top: 40px;
+}
+
+#bio a {
+  color: aqua;
+}
+
+.social-media-links {
+  color: #ffd540;
+}
+
+ol, ul {
+  display: inline-block;
+  text-align: left;
+}
+
+a {
+  background: url("https://ewebdesign.com/wp-content/themes/ewebdesign/assets/img/wave.svg");
+}
